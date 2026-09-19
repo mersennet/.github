@@ -1,0 +1,31 @@
+name: Bug report
+description: Something is wrong in the node, an SDK, the explorer, the faucet or the website
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Security issues: do not file them here** — email security@mersennet.com (see SECURITY.md).
+        Trade terminal problems: use the Feedback page in the terminal, which attaches the build and your wallet's public address.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [node / consensus, RPC, order-book precompile, staking, explorer, faucet, website, sdk-ts, sdk-python, sdk-go, docs]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you saw. Include the block height for chain issues and the request/response for RPC issues.
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: Version / build
+      description: Node build (`mersennet --version`), SDK version, or the page URL and the `X-Mersennet-Origin` response header for web issues.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      render: text

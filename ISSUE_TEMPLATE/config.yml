@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Telegram community
+    url: https://t.me/Mersennet
+    about: Questions, node-operator help and announcements
+  - name: Documentation
+    url: https://docs.mersennet.com
+    about: Guides, RPC reference, SDKs, validator docs
+  - name: Security report
+    url: https://docs.mersennet.com/resources/faq/#security
+    about: Vulnerabilities go to security@mersennet.com, never to a public issue
