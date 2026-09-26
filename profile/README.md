@@ -17,7 +17,8 @@
 - [`sdk-ts`](https://github.com/mersennet/sdk-ts), [`sdk-python`](https://github.com/mersennet/sdk-python), [`sdk-go`](https://github.com/mersennet/sdk-go) — SDKs for the JSON-RPC API, the order-book precompile, staking and shielded notes (MIT)
 - [`explorer`](https://github.com/mersennet/explorer) — block explorer, a dependency-free SPA over the public RPC (MIT)
 - [`website`](https://github.com/mersennet/website), [`faucet`](https://github.com/mersennet/faucet) — mersennet.com and the testnet faucet (MIT)
-- `mersennet` — the node (consensus, execution, order-book precompile, staking, RPC, proving). Source-available under the **Business Source License 1.1**: read, audit, build and run it as a Mersennet node freely; other networks need a commercial license (licensing@mersennet.com). Converts to Apache-2.0 on 2030-09-30. Publishing shortly — today's [signed release bundles](https://mersennet.com/downloads/) are the exact build the fleet runs.
+- [`docs`](https://github.com/mersennet/docs) — docs.mersennet.com (Astro Starlight, MIT); pull requests welcome
+- [`mersennet`](https://github.com/mersennet/mersennet) — the node (consensus, execution, order-book precompile, staking, RPC, proving). Public since 26 Sep 2026, source-available under the **Business Source License 1.1**: read, audit, build and run it as a Mersennet node freely; other networks need a commercial license (licensing@mersennet.com). Converts to Apache-2.0 on 2030-09-30. Publishing shortly — today's [signed release bundles](https://mersennet.com/downloads/) are the exact build the fleet runs.
 
 ## Status
 
